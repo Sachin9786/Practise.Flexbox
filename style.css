@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    justify-content: start;
+    border: 2px solid red;
+    height: 50vh;
+    margin: 0px;
+    /* padding: 0px; */
+    align-items: center;
+    /* flex-direction:column; */
+    /* flex-direction: row-reverse; */
+    justify-content: start;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 60px;
+
+}
+
+.Item {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border: 2px solid black;
+    margin: 2px;
+    padding: 3px;
+    color: white;
+
+
+}
